@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "./src/js",
+        "module": "system",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true
+    },
+    "compileOnSave": true,
+    "files": [
+        "./src/ts/app.ts"
+    ],
+    "exclude": [
+        "jspm_packages",
+        "node_modules"
+    ],
+    "filesGlob": [
+        "./src/ts/**/*.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
