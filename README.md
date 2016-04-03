@@ -16,7 +16,7 @@ jspm init
 jspm install angular2 reflect-metadata zone.js es6-shim
 ```
 
-จะได้ไฟล์ `config.js` ซึ่งเป็นคอนฟิกของ `System.js` ส่วนไลบรารี่จะถูกตั้งตั้งตั้งในโฟลเดอร์ `jspm_packages`
+จะได้ไฟล์ `config.js` ซึ่งเป็นคอนฟิกของ `System.js` ส่วนไลบรารี่จะถูกตั้งติดตั้งใน `jspm_packages`
 
 ### เริ่มเขียนโค้ด
 
