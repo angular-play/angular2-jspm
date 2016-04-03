@@ -1,7 +1,7 @@
 ### Angular2 + JSPM
 
-Original: https://gist.github.com/robwormald/429e01c6d802767441ec
-Tutorial: https://www.youtube.com/watch?v=_-CD_5YhJTA
+- Original: https://gist.github.com/robwormald/429e01c6d802767441ec
+- Tutorial: https://www.youtube.com/watch?v=_-CD_5YhJTA
 
 ### ตั้งตั้ง jspm
 
