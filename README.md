@@ -24,8 +24,22 @@ jspm install angular2 reflect-metadata zone.js es6-shim
 สร้างไฟล์ `main.ts` โดยเก็บไว้ใน `src`
 
 ```javascript
-//import deps
-import 'reflect-metadata';
+import "reflect-metadata";
+import "es6-shim"
+// import "zone.js"
+
+import { Component } from "angular2/core";
+import { bootstrap } from "angular2/platform/browser";
+
+@Component({
+    selector: "my-app",
+    template: "<h1>First Angular 2 App</h1>"
+})
+class AppComponent {
+
+}
+
+bootstrap(AppComponent);
 ```
 
 สร้างไฟล์ `index.html`
