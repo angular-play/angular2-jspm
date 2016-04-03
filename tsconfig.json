@@ -10,7 +10,10 @@
     },
     "compileOnSave": true,
     "files": [
-        "./src/ts/app.ts"
+        "./src/ts/boot.ts",
+        "./src/ts/course.service.ts",
+        "./src/ts/courses.component.ts",
+        "./src/ts/hello.ts"
     ],
     "exclude": [
         "jspm_packages",

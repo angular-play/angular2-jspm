@@ -1,6 +1,7 @@
 ### Angular2 + JSPM
 
 Original: https://gist.github.com/robwormald/429e01c6d802767441ec
+Tutorial: https://www.youtube.com/watch?v=_-CD_5YhJTA
 
 ### ตั้งตั้ง jspm
 
@@ -61,6 +62,18 @@ bootstrap(AppComponent);
     </script>
 </body>
 </html>
+```
+
+### Bundle ไลบรารี่ต่าง ๆ ไว้ในไฟล์เดียวกัน
+
+```bash
+jspm bundle src/js/app src/js/build.js
+```
+
+Import script เพิ่มในไฟล์ `index.html`
+
+```html
+<script src="/src/js/build.js"></script>
 ```
 
 ### Issue

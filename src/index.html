@@ -4,15 +4,18 @@
     <!-- systemJS loader and config -->
     <script src="/jspm_packages/system.js"></script>
     <script src="/config.js"></script>
+    <!--
+    <script src="/src/js/build.js"></script>
+    -->
 </head>
 <body>
     <!-- our angular2 component -->
-    <my-app/>
+    <my-app>Loading ...</my-app>
 
     <!-- import and run our app -->
     <script>
       System.import("zone.js");
-      System.import('/src/js/app');
+      System.import('/src/js/boot');
     </script>
 </body>
 </html>

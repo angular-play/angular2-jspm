@@ -1,0 +1,1 @@
+jspm bundle src/js/app src/js/build.js
