@@ -10,6 +10,7 @@
     },
     "compileOnSave": true,
     "files": [
+        "./src/ts/auto-grow.directive.ts",
         "./src/ts/boot.ts",
         "./src/ts/course.service.ts",
         "./src/ts/courses.component.ts",
