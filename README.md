@@ -2,13 +2,13 @@
 
 Original: https://gist.github.com/robwormald/429e01c6d802767441ec
 
-#### ตั้งตั้ง jspm
+### ตั้งตั้ง jspm
 
 ```bash
 npm install -g jspm
 ```
 
-#### ตั้ดตั้งไลบรารี่ JavaScript
+### ตั้ดตั้งไลบรารี่ JavaScript
 
 ```bash
 jspm init
@@ -19,7 +19,7 @@ jspm install angular2 reflect-metadata zone.js es6-shim
 
 สามารถเปิดไฟล์ `config.js` เพื่อแก้ไข option ของ `System.js`
 
-#### เริ่มเขียนโค้ด
+### เริ่มเขียนโค้ด
 
 สร้างไฟล์ `main.ts` โดยเก็บไว้ใน `src`
 
@@ -51,7 +51,7 @@ import 'reflect-metadata';
 </html>
 ```
 
-#### Issue
+### Issue
 
 ไม่สามารถ `import zone.js`
 
