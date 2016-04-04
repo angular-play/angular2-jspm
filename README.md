@@ -3,13 +3,13 @@
 - Original: https://gist.github.com/robwormald/429e01c6d802767441ec
 - Tutorial: https://www.youtube.com/watch?v=_-CD_5YhJTA
 
-### ตั้งตั้ง jspm
+### ติดตั้ง jspm
 
 ```bash
 npm install -g jspm
 ```
 
-### ตั้ดตั้งไลบรารี่ JavaScript
+### ติดตั้งไลบรารี่ JavaScript
 
 ```bash
 jspm init
